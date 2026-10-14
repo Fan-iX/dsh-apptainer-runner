@@ -1,0 +1,3 @@
+- insert:
+    - id: apptainer-runner
+      name: dsh-apptainer-runner
