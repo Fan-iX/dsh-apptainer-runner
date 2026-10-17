@@ -1,6 +1,6 @@
 {
   "name": "dsh-apptainer-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An `apptainer_run` tool for DSH: run an Apptainer/Singularity image with a workspace-write-equivalent boundary.",
   "type": "module",
   "main": "./lib/index.js",
@@ -23,7 +23,7 @@
   ],
   "peerDependencies": {
     "@deepseek-ai/cordis": "*",
-    "@deepseek-ai/dsh-tools": "0.2.0-rc.2",
+    "@deepseek-ai/dsh-tools": "*",
     "@deepseek-ai/schemastery": "*"
   },
   "dsh": {
